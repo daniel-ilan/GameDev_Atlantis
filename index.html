@@ -18,7 +18,7 @@
     <script src="jScripts/jquery-1.12.0.min.js"></script>
     <!--הקוד שמפעיל את תפריט הניווט-->
     <script src="jScripts/myScript.js">
-    var elem = document.getElementById("myvideo");
+    var elem = document.getElementById("gameIframe");
         function openFullscreen() {
     if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
     elem.webkitRequestFullscreen();}
@@ -65,6 +65,7 @@
                 <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
                 <iframe id="gameIframe" src="Atlantis.html" frameBorder="0" allowfullscreen>Browser not compatible.</iframe>
             </div>
+        <button onclick="openFullscreen();">Open Video in Fullscreen Mode</button>
         </div>
 </body>
 
