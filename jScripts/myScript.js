@@ -17,7 +17,4 @@
         $("#gameIframe")[0].contentWindow.focus();
     });
 });
-    var elem = document.getElementById("gameIframe");
-        function openFullscreen() {
-    if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-    elem.webkitRequestFullscreen();}
+
