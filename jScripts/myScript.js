@@ -1,4 +1,10 @@
-﻿$(document).ready(function () {
+    var elem = document.getElementById("gameIframe");
+console.log(elem);
+        function openFullscreen() {
+    if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();}
+        }
+$(document).ready(function () {
     $(".about").click(function () {
         $("#aboutDiv").toggle();
     });
